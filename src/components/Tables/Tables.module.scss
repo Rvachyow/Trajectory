@@ -1,0 +1,45 @@
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 15px;
+  align-items: center;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  .btnCreat {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+}
+.tables__table {
+  width: 100%;
+  margin-top: 15px;
+  padding: 28px 0px;
+  background-color: white;
+  border-radius: 8px;
+  color: #899cb1;
+  table {
+    table-layout: fixed;
+  }
+  .table__tr {
+    width: 100%;
+    th {
+      cursor: pointer;
+      text-align: center;
+    }
+    th {
+      padding: 0px 0px 20px 0px;
+    }
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+}
+.closeBtn {
+  position: absolute;
+  cursor: pointer;
+}

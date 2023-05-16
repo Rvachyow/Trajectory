@@ -1,26 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import "./fonts/SF-Pro-Display-Medium.ttf";
+import "./fonts/SF-Pro-Display-Regular.ttf";
+import "./fonts/SF-Pro-Display-Semibold.ttf";
+import "./styles/app.scss";
+import { CarsShop } from "./views/CarsShop";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+export const App = () => <CarsShop />;

@@ -1,0 +1,21 @@
+.sortbtn {
+  user-select: none;
+  position: relative;
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid rgb(145, 174, 236);
+}
+.active {
+  transform: rotate(180deg);
+}
+.acitveTh {
+  color: black;
+}
